@@ -1,7 +1,7 @@
 function mostrar()
 {
 
-//alert (mesDelAño);
+//alert (mesDelAño); 
 	
 var mes = document.getElementById("mes").value;
 
