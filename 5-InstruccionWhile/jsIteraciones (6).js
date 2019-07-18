@@ -1,27 +1,22 @@
-function mostrar() // la diferencia entre el acumulador y el contador es que el acumulador incremente numeros
- //variables y el contador numeros constantes. ambos deben ser inicializados junto la variable.
+function mostrar()
 {
 	var numero;
-
 	var suma = 0;
-
 	var promedio;
-
 	var contador=0;
 	
+	while( contador < 5){
 
-while (contador < 5)
-{
-	numero = parseInt (prompt("Ingrese un numero"));
+		numero = parseInt(prompt("Ingrese un numero: "));
+		suma = suma + numero; //suma += numero
 
-	suma = suma + numero;
+		contador++; //contador = contador 
+	}
 
-	contador++;
-}
-promedio = suma / 5;
+	promedio = suma / 5;
+	
+	document.getElementById("suma").value = suma
+	document.getElementById("promedio").value = promedio
 
-document.getElementById("Suma").value = suma;
 
-document.getElementById("Promedio").value = promedio;
-
-}//FIN DE LA FUNCIÓN ..................esta sin resolver....................
+}//FIN DE LA FUNCIÓN

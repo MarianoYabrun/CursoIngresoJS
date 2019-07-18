@@ -1,7 +1,12 @@
 function mostrar()
 {
-	alert('iteración while');
+	var cont = 0;
+	
+	while(cont <=10)
+{
+	console.log("Numero : " + cont);
+	cont = cont +1;
 
+}
 
 }//FIN DE LA FUNCIÓN
-// while do wile y for. La diferencia entre el do while y el while es que en el primero si o si se ejecuta una vez.
