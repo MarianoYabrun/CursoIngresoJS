@@ -42,7 +42,7 @@ function mostrar()
       { 
         contadorimpares ++;
 
-      }else (num == 0)
+      }else if (num == 0)
            {
              contadordeceros ++;
     
@@ -82,8 +82,8 @@ function mostrar()
            promedio = acumuladorpositivos / contadorpositivos;
 
 
-       document.write(" la cantidad de numeros pares es de " + contadordepares);
-       document.write(" la cantidad de numeros impares es de " + contadordeimpares);
+       document.write(" la cantidad de numeros pares es de " + contadordepares );
+       document.write(" la cantidad de numeros impares es de " + contadorimpares);
        document.write(" la cantidad de ceros es de " + contadordeceros);
        document.write(" el promedio es  " + promedio);
        document.write( "la suma de los numeros negatisvos es de " + acumuladornegativos);
